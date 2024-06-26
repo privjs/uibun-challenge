@@ -18,10 +18,12 @@ Check out this demo video of a working prototype example of the final result:
 
 - `index.html` file contains a simple HTML document consisting of various different kinds of html elements like blockquotes, paragraphs etc. This is the mark up that will render when you run the project and for integration tests.
 - The main.tsx file contains the boiler-plate needed, to render the `HoverPlayer` component.
-- The play.ts file contains `speechify` function which can be used to perform playback on an element.
+- The play.ts file contains `speechify()` function which can be used to perform playback on an element.
 - A list of elements to be ignored while parsing readable elements for hover player is also provided in the `./src/lib/parser.ts`. All parsing code should be implemented in this file.
 
 ### Implementation Checklist
+
+You are required to complete the following tasks:
 
 - [ ] **getTopLevelReadableElements:** Implement a parsing mechanism that gets all the top level readable elements based on heuristics provided. (`./src/lib/parser.ts`)
 - [ ] **useHoveredParagraphCoordinate:** Implement functions and hook that lets you get information about the currently hovered element. (`./src/lib/hook.ts`)
